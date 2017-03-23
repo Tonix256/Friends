@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.solo.friends.frag1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/shiba"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:text="My Siso Shiba"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textSize="40dp"
+        android:layout_marginTop="230dp"
+        android:textColor="#cf3030" />
+</FrameLayout>
